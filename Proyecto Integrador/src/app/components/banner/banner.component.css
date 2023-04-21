@@ -1,0 +1,10 @@
+.banner__img {
+    width: 100%;
+    height: auto;
+}
+
+.profile__image {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
