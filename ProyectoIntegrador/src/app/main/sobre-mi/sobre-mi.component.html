@@ -5,9 +5,8 @@
         </picture>
         <picture *ngIf="potho.length === 0">
             <img src="../../../assets/img/logo-profil.png" alt="Foto de Perfil" class="profile__image">
-        </picture>
-        <h2 class="profile__name"> {{ usuario.lastName }} {{usuario.name }} </h2> -->
-        <h2>Almendras Jorge</h2>
+        </picture> -->
+        <h2 class="profile__name"> {{ llamarName() }} {{ llamarLastName() }} </h2>
     </section>
 
     <section class="profile__details">

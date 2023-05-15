@@ -14,13 +14,25 @@ export class SobreMiComponent {
   }
 
   ngOnInit(): void {
-    this.llamarData();
+    //this.llamarData();
   }
 
-  llamarData() {
+  // llamarData() {
+  //   this.apiService.getData().subscribe( data => {
+  //      this.data = data.data.name
+  //      console.log(this.data)
+  //    })
+  //  }
+
+  llamarName() {
     this.apiService.getData().subscribe( data => {
-      this.data = data
-      console.log(this.data)
+      this.data = data.data.name;
+    })
+  }
+
+  llamarLastName() {
+    this.apiService.getData().subscribe( data => {
+      this.data = data.data.lastName;
     })
   }
 
