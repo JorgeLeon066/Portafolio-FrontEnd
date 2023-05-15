@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ApiService {
-  private urlApi ='https://portafolio-web-api-default-rtdb.firebaseio.com'
+  private urlApi ='https://portafolio-web-api-default-rtdb.firebaseio.com/.json'
 
   constructor( private http: HttpClient) { }
 

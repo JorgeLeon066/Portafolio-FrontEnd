@@ -34,7 +34,7 @@ import { ExperienciaComponent } from './main/experiencia/experiencia.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]
