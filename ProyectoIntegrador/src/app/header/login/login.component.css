@@ -1,0 +1,14 @@
+.header__button {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__ingresar {
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    border-radius: 6px;
+    padding: 6px 12px;
+    margin-right: 16px;
+    font-size: 1.2em;
+}

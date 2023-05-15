@@ -1,0 +1,97 @@
+[
+    {
+        "estados": [
+            "Incompleto", 
+            "Finalizado", 
+            "En Curso"
+        ]
+    },
+
+    {   
+        "id": "1",
+
+        "img" : "",
+
+        "nombre": ["Jorge", "Luis", "León"],
+
+        "apellido": ["almendras"],
+
+        "direccion" : {
+            "pais": "Argentina",
+            "provincia": "Salta",
+            "ciudad": "Salta",
+            "localidad": "El Carril"
+        },
+
+        "sobreMi": "Me desempeño mejor en el desarrolo Front-End aunque no me guste",
+
+        "contacto": {
+            "linkedin": "https://www.linkedin.com/in/jorge-almendras-93922a246/",
+            "github": "https://github.com/JorgeLeon066",
+            "whatsapp": ""
+        },
+
+        "estucios": [
+            {
+                "institucion": "Escuela de Educacion Tecnica Aeroanutica N° 3144 Cap. Marcelo P. Lotufo",
+                "img": [],
+                "estado": "",
+                "fechaInicio": "2016",
+                "fechaFin": "2022",
+                "estudio": "Tecnico Aeronautico"
+            }
+        ],
+
+        "skills": [
+            {
+                "id":"1",
+                "nombre": "JavaScript",
+                "img": "../assets/svg/javascript.svg",
+                "tipo": "lenguaje"
+            },
+            {
+                "id":"2",
+                "nombre": "HTML",
+                "img": "../assets/svg/html.svg",
+                "tipo": "lenguaje"
+            },
+            {
+                "id":"3",
+                "nombre": "CSS",
+                "img": "../assets/svg/css-3.svg",
+                "tipo": "lenguaje"
+            },
+            {
+                "id":"4",
+                "nombre": "TypeScript",
+                "img": "../assets/svg/typescript.svg",
+                "tipo": "lenguaje"
+            },
+            {
+                "id":"5",
+                "nombre": "React",
+                "img": "../assets/svg/react.svg",
+                "tipo": "framework"
+            },
+            {
+                "id":"6",
+                "nombre": "Angular",
+                "img": "../assets/svg/angular-icon.svg",
+                "tipo": "framework"
+            }
+        ],
+
+        "experiencia": [
+
+        ],
+
+        "proyectos" : [
+            {
+                "nombre": "Protafolio Web",
+                "img": [],
+                "estado": "",
+                "descripcion": ""
+            }
+        ]
+    }
+]

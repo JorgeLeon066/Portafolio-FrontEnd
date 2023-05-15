@@ -1,0 +1,15 @@
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 150px;
+    height: auto;
+}
+
+.header__section {
+    display: flex;
+    gap: 17px;
+}

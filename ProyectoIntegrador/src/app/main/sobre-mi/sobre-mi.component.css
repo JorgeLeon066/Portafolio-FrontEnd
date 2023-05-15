@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    align-items: center;
+    background: rgb(53 55 64 / 40%);
+}
+
+.profile__image {
+    width: 8rem;
+    height: auto;
+}
+
+.profile__name {
+    font-weight: 400;
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.profile__info{
+    max-width: 100%;
+    font-size: 1.3em;
+}

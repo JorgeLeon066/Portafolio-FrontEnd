@@ -1,0 +1,11 @@
+.contactos {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.contacto__icono {
+    width: 35px;
+    height: auto;
+}
+
